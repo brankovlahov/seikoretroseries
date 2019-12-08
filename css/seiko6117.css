@@ -1,0 +1,167 @@
+
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body { font-family: "helvetica neue", sans-serif ;
+    
+
+
+
+
+}
+h1 {
+    display: flexbox;
+    font-family: "helvetica neue", sans-serif;
+    margin-bottom: 0;
+}
+
+
+.article {
+margin: 0% 26% ;
+   
+
+
+
+
+
+}
+
+
+.description {
+    text-overflow: ellipsis;
+ 
+position: relative;
+
+
+
+}
+
+.span { 
+    font-size: 15px;
+display: flex;
+  flex-direction: column;
+
+}
+
+.content {
+
+    
+
+    font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300))); 
+    padding: 0 10px;
+}
+
+.content img {
+    width: 100%;
+    max-width: 700px;
+    margin: 2px 0;
+}
+
+.content p {
+    text-align: justify;
+}
+.main {
+    text-align: center;
+    
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+h3 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-family: "roboto bold", sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .article {
+        margin: 0% 0% ;
+           
+        
+        
+        
+        
+        
+        }
+  
+  }
+
+
+.footer_text {
+        color: white;
+        margin-left: 45px;
+        
+        
+        
+        }
+        
+        .site-footer {
+            background-color: #010f36;
+              text-align: center;
+              margin: 0px 0;
+              padding: 10px 0;
+          }
+          
+          #social-wrapper {
+              text-align: center;
+          }
+          
+          /*Social Media Icons*/
+          .social-wrapper {
+              text-align: center;
+          }
+          
+          .social-wrapper ul li {
+              display: inline;
+              margin: 0 5px;
+          }
+          
+          .twitter-icon,
+          .facebook-icon,
+          .instagram-icon,
+          .linkedin-icon,
+          .googleplus-icon,
+          .youtube-icon,
+          .foursquare-icon{
+              margin-top: .625em;
+              width: 40px;
+              height: 40px;
+              opacity: .6;
+              filter: alpha(opacity=60); /* For IE8 and earlier */
+            border-radius: 25px;
+          }
+          
+          .twitter-icon:hover,
+          .facebook-icon:hover,
+          .instagram-icon:hover,
+          {
+              opacity: 1.0;
+              filter: alpha(opacity=100); 
+          }
+          
+          .footer-nav p {
+              text-align: center;
+          }

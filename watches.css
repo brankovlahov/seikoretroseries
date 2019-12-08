@@ -1,0 +1,115 @@
+/* Grid container */
+      #p-grid {
+        z-index: 2;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        /* Width of columns */
+        grid-template-columns: 25% 25% 25% 25%;
+      }
+      /* Product items */
+      div.p-grid-in {
+        box-sizing: border-box;
+        margin: 5px; 
+        padding: 10px;
+        border: 1px solid #e8f0ff;
+        background: #f2f7ff;
+      }
+      img.p-img {
+        width: 100%;
+        height: auto;
+      }
+      div.p-name {
+        font-weight: bold;
+        font-size: 1.1em;
+      }
+      div.p-price {
+        color: #f44242;
+      }
+      div.p-desc {
+        color: #888;
+        font-size: 0.9em;
+      }
+      button.p-add {
+        background: #010f36;
+        color: #fff;
+        border: none;
+        width: 100%;
+        padding: 10px;
+        margin: 10px 5px 5px 5px;
+        font-size: 1.1em;
+    
+        font-family: "helvetica ", sans-serif;
+        cursor: pointer;
+      }
+      /* Responsive */
+      @media only screen and (max-width: 1024px) {
+        #p-grid { grid-template-columns: 33% 33% 33%; }
+      }
+      @media only screen and (max-width: 600px) {
+        #p-grid { grid-template-columns: 50% 50%; }
+      }
+      /* [DOES NOT MATTER] */
+      html, body {
+        padding: 0;
+        margin: 0;
+        
+      }
+
+
+      .footer_text {
+        color: white;
+        margin-left: 45px;
+        position: relative;
+margin: auto;
+        
+        
+        }
+        
+        .site-footer {
+            background-color: #010f36;
+              text-align: center;
+              margin: 0px 0;
+              padding: 10px 0;
+          }
+          
+          #social-wrapper {
+              text-align: center;
+          }
+          
+          /*Social Media Icons*/
+          .social-wrapper {
+              text-align: center;
+          }
+          
+          .social-wrapper ul li {
+              display: inline;
+              margin: 0 5px;
+          }
+          
+          .twitter-icon,
+          .facebook-icon,
+          .instagram-icon,
+          .linkedin-icon,
+          .googleplus-icon,
+          .youtube-icon,
+          .foursquare-icon{
+              margin-top: .625em;
+              width: 40px;
+              height: 40px;
+              opacity: .6;
+              filter: alpha(opacity=60); /* For IE8 and earlier */
+            border-radius: 25px;
+          }
+          
+          .twitter-icon:hover,
+          .facebook-icon:hover,
+          .instagram-icon:hover,
+          {
+              opacity: 1.0;
+              filter: alpha(opacity=100); /* For IE8 and earlier */
+          }
+          
+          .footer-nav p {
+              text-align: center;
+          }

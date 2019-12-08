@@ -1,0 +1,279 @@
+.image_container{
+    background-position: center center;
+    background-image: url(/images/Seikoretrobgimage.jpg);
+    background-size: cover;
+    height: 800px;
+}
+
+.bgimage_text {
+float: right;
+
+
+
+
+
+
+}
+
+
+
+
+.link {
+text-decoration: none;
+color: white;
+
+
+
+}
+
+
+.welcome_to_seiko {
+
+
+margin-right: 3vw;
+font-size:2.5vw;
+color: white;
+font-family: "helvetica neue", sans-serif;
+}
+
+
+.quote_from_seiko {
+    
+    
+    margin-right: 3vw;
+    font-size:1vw;
+    color: white;
+    font-family: "helvetica ", sans-serif;
+    font-style: italic;
+}
+
+
+
+.why_recycle {
+    background-image: url(/images/pileofwatches.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0px 0 0px 0;
+    height: 450px;
+
+    
+}
+
+
+
+.recycle_header {
+
+    text-shadow: 2px 2px black;
+
+
+
+    
+}
+
+
+.recycle_text {
+   
+    text-shadow: 2px 2px black;
+
+
+}
+
+.collection {
+    margin-left: 20px;
+color: white;
+
+
+}
+
+
+.recycled {
+color: white;
+margin-left: 10px;
+
+}
+
+
+.brandnew {
+color: white;
+margin-left: 25px;
+
+}
+
+.cafe_image {
+    width: 150px;
+}
+
+.cafe_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #b19257;
+    width: 450px;
+    padding-left: 55px;
+
+}
+
+.cafe_text {
+    color:#010f36;
+}
+
+.icon_text {
+text-align: center;
+    font-family: helvetica;
+    color: white;
+}
+
+.whyrecycle_text {
+    text-align: center;
+    color: white;
+    width: 650px;
+}
+
+.details_container {
+    background:  #010f36;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px 0 0px 0;
+}
+
+.content_container {
+   
+   align-items: center;
+    padding: 16px 24px 16px 24px;
+    margin: 16px 16px 16px 16px;
+    width: 350px;
+
+}
+
+.event_image {
+    margin-left: 25px;
+    width: 300px;
+}
+
+.seeallwatches_text {
+    text-decoration: none;
+    text-decoration: underline;
+    color: white;
+    float: right;
+    margin-top: 25px;
+}
+
+.some_icon {
+    float: right;
+    width: 30px;
+}
+
+.newsletter {
+    margin: 0px auto 0px auto;
+    padding: 20px 0 20px 0;
+    width: 100%;
+    text-align: center;
+    background-color: #e8eeff
+}
+
+.form_element {
+    border: #888888 solid 1px;
+    background-color: #ededed;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+
+.footer_text {
+color: white;
+margin-left: 45px;
+
+
+
+}
+
+.site-footer {
+    background-color: #010f36;
+      text-align: center;
+      margin: 0px 0;
+      padding: 10px 0;
+  }
+  
+  #social-wrapper {
+      text-align: center;
+  }
+  
+  /*Social Media Icons*/
+  .social-wrapper {
+      text-align: center;
+  }
+  
+  .social-wrapper ul li {
+      display: inline;
+      margin: 0 5px;
+  }
+  
+  .twitter-icon,
+  .facebook-icon,
+  .instagram-icon,
+  .linkedin-icon,
+  .googleplus-icon,
+  .youtube-icon,
+  .foursquare-icon{
+      margin-top: .625em;
+      width: 40px;
+      height: 40px;
+      opacity: .6;
+      filter: alpha(opacity=60); /* For IE8 and earlier */
+    border-radius: 25px;
+  }
+  
+  .twitter-icon:hover,
+  .facebook-icon:hover,
+  .instagram-icon:hover,
+  {
+      opacity: 1.0;
+      filter: alpha(opacity=100); /* For IE8 and earlier */
+  }
+  
+  .footer-nav p {
+      text-align: center;
+  }
+
+@media only screen and (max-width: 600px) {
+
+
+
+    .image_container {
+        background-position: center center;
+        background-image: url(/images/seikoretromobile.jpg)
+        background-size: cover;
+        height: 400px;
+        
+    }
+
+
+
+
+
+.welcome_to_seiko {
+
+    text-shadow: 2px 2px #ff0000;
+    margin-right: 3vw;
+    font-size:5.4vw;
+    color: white;
+    font-family: "helvetica neue", sans-serif;
+    }
+    
+    
+    .quote_from_seiko {
+        
+        text-shadow: 2px 2px black;
+        margin-right: 3vw;
+        font-size:3.3vw;
+        color: white;
+        font-family: "helvetica ", sans-serif;
+        font-style: italic;
+    }
+    
+}

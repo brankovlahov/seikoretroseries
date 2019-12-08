@@ -1,0 +1,139 @@
+/* 
+The container box is relative so we can position stuff inside of it 
+*/
+
+
+.image-box {
+    position: relative;
+    z-index: -1;
+  }
+  
+  
+  .image-box__background,
+  .image-box__overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  /* 
+  The background image div sizes and positions the background itself.
+  It's also at the bottom-most position in our "div stack" (z-index 1)
+  
+  We set the image url via a CSS custom property, that's set via the style attribute in our HTML
+  */
+  .image-box__background {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: var(--image-url);
+  
+    z-index: 1;
+  }
+  
+  /* 
+  The overlay div is just a colored element with some opacity.
+  It's above the background image in our stack, so it appears to 
+  darken the image 
+  */
+  .image-box__overlay {
+    background: rgba(0, 0, 0, 0.5);
+  
+    z-index: 2;
+  }
+  
+  /* 
+  The content div is at the top of our stack. 
+  We'd probably add some padding or flexbox properties here as well, 
+  to place the content appropriately
+  */
+  .image-box__content {
+    position: relative;
+  
+    z-index: 3;
+    
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* just for the demo */
+  html, body {
+    margin: 0;
+    padding: 0;
+ 
+  }
+  h1 {
+    font-size: 30px;
+    top:20%;
+    position: absolute;
+    font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300))); 
+  }
+
+  p {
+    top:30%;
+    position: absolute;
+    font-size: calc(10px + (20 - 14) * ((100vw - 300px) / (1600 - 300))); 
+    margin: 0% 10% ;
+    line-height: 25px;
+
+  }
+  .footer_text {
+    color: white;
+    margin-left: 45px;
+position: relative;
+margin: auto;
+    
+    
+    }
+    
+    .site-footer {
+        background-color: #010f36;
+          text-align: center;
+          margin: 0px 0;
+          padding: 10px 0;
+      }
+      
+      #social-wrapper {
+          text-align: center;
+      }
+      
+      /*Social Media Icons*/
+      .social-wrapper {
+          text-align: center;
+      }
+      
+      .social-wrapper ul li {
+          display: inline;
+          margin: 0 5px;
+      }
+      
+      .twitter-icon,
+      .facebook-icon,
+      .instagram-icon,
+      .linkedin-icon,
+      .googleplus-icon,
+      .youtube-icon,
+      .foursquare-icon{
+          margin-top: .625em;
+          width: 40px;
+          height: 40px;
+          opacity: .6;
+          filter: alpha(opacity=60); /* For IE8 and earlier */
+        border-radius: 25px;
+      }
+      
+      .twitter-icon:hover,
+      .facebook-icon:hover,
+      .instagram-icon:hover,
+      {
+          opacity: 1.0;
+          filter: alpha(opacity=100); /* For IE8 and earlier */
+      }
+      
+      .footer-nav p {
+          text-align: center;
+      }
